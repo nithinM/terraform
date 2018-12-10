@@ -1,0 +1,6 @@
+version: "3"
+services:
+        terraform:
+                image: hashicorp/terraform:light
+                container_name: terraform
+                tty: true
